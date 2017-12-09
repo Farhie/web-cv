@@ -1,0 +1,21 @@
+- skill:
+  name: Terraform
+  level: 90%
+- skill:
+  name: Ansible
+  level: 80%
+- skill:
+  name: Packer
+  level: 80%
+- skill:
+  name: Vagrant
+  level: 80%
+- skill:
+  name: AWS
+  level: 70%
+- skill:
+  name: OpenShift
+  level: 60%
+- skill:
+  name: InSpec
+  level: 60%

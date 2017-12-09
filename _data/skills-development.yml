@@ -1,0 +1,12 @@
+- skill:
+  name: Java
+  level: 80%
+- skill:
+  name: Java Testing Frameworks
+  level: 70%
+- skill:
+  name: Python
+  level: 60%
+- skill:
+  name: Go
+  level: 40%

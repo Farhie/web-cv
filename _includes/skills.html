@@ -1,0 +1,74 @@
+{% if site.data.skills-practice %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Software Practices</h2>
+
+  <div class="skillset">
+
+    {% for skill in site.data.skills-practice %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}
+
+{% if site.data.skills-infra %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Infrastructure Management</h2>
+
+  <div class="skillset">
+
+    {% for skill in site.data.skills-infra %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}
+
+{% if site.data.skills-development %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Application Development</h2>
+
+  <div class="skillset">
+
+    {% for skill in site.data.skills-development %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}

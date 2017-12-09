@@ -1,0 +1,32 @@
+- intro:
+  description: ""
+
+- project:
+  title: Order Management System
+  tagline: "Formed part of the team responsible for the inception, discovery and delivery of an entirely new order managent system. 
+            The legacy system had been in place for over 20 years and had many issues including outages of up to four hours during times of peak demand,
+            an incredibly slow release cycle and poor  with an ever increasing Due to reliance on a legacy system the retailer had been 
+            experiencing increasing system errors"
+
+- project:
+  title: 100% Digital Loan Product
+  tagline: "Worked with a multinational bank to build their first continuous delivery project, a 100% digital consumer loans 
+            product. We built Java 8 Dropwizard micro services, a continuous delivery process in Jenkins that builds Openshift gears and 
+            deploys them using Bash, which was later moved to Ruby. Our process deploys to the internal private cloud based on Red Hat Openshift. 
+            Having worked closely with the platform team, the bank are now capable of frequent, low risk releases to a stable internal cloud."
+
+- project:
+  title: Replatforming ScienceDirect.com
+  tagline: "Contributed to the replatforming of one of the words largest scientific journal and book platforms. The 15 year old 
+            legacy platform suffered from many issues, including high levels of downtime (48 hours a year), poor performance (three second 
+            page load times), a slow release cycle (nine months for a significant feature) and high levels of defects within each release. 
+            <br> We worked with the client development team to deliver a scalable, highly available, multi region infrastructure on AWS, using 
+            Ansible for orchestration. Java 8 and NodeJS micro services allowed us to slowly strangle functionality out of the old system. 
+            Python was used for scripting deployment and GoCD for continuous integration. Working with the client allowed them to move from 
+            an offshore IT department into a local, agile team delivering a performant, resilient and flexible platform that can adapt to 
+            changing user demands."
+
+- project:
+  title: Many Others
+  tagline: "Including continuous delivery enablement for an american retailer, replatforming and extending a membership and communities platform
+            for a british retailer and agile organisational transformations"
